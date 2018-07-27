@@ -267,3 +267,19 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #restaurants-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #restaurants-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
