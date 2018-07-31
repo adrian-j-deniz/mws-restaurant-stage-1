@@ -184,8 +184,10 @@ nav h1 a {
   z-index: 1000;
 }
 .inside #map-container {
-  height: 500px;
+  height: 400px;
   width: 100%;
+  position: relative;
+  top: 131px;
 }
 .inside #map {
   background-color: #ccc;
@@ -208,7 +210,8 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 90%;
+  width: 90%;
+  margin-top: 60px;
 }
 #restaurant-address {
   font-size: 12pt;
