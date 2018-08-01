@@ -3,7 +3,7 @@
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 24pt;
 	color: #333;
 	line-height: 1.5;
 }
@@ -210,7 +210,7 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-  width: 90%;
+  width: 100%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -226,17 +226,15 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 30px 40px 30px;
-  width: 50%;
   margin-top: 131px;
 }
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 30px 40px 170px;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -258,7 +256,6 @@ nav h1 a {
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
